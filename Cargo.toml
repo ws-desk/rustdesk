@@ -1,11 +1,11 @@
 [package]
-name = "X-Rustdesk"
+name = "rustdesk"
 version = "1.3.7"
 authors = ["rustdesk <info@rustdesk.com>"]
 edition = "2021"
 build= "build.rs"
-description = "X-Rustdesk远程桌面"
-default-run = "X-Rustdesk远程桌面"
+description = "RustDesk Remote Desktop"
+default-run = "rustdesk"
 rust-version = "1.75"
 
 [lib]
@@ -182,8 +182,8 @@ exclude = ["vdi/host", "examples/custom_plugin"]
 
 [package.metadata.winres]
 LegalCopyright = "Copyright © 2024 Purslane Ltd. All rights reserved."
-ProductName = "X-Rustdesk远程桌面"
-FileDescription = "X-Rustdesk远程桌面"
+ProductName = "RustDesk"
+FileDescription = "RustDesk Remote Desktop"
 OriginalFilename = "rustdesk.exe"
 
 [target.'cfg(target_os="windows")'.build-dependencies]
